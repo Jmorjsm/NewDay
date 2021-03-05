@@ -3,7 +3,7 @@ using System.CommandLine;
 using System.CommandLine.Invocation;
 using System.IO;
 
-namespace Todo
+namespace NewDay
 {
     class Program
     {
@@ -18,7 +18,7 @@ namespace Todo
                         Console.WriteLine("Init command:");
                     }),
                 },
-                new Command("new-day", "moves ongoing tasks to a new todo list for to day")
+                new Command("new-day", "moves ongoing tasks to a new todo list for today")
                 {
                     Handler = CommandHandler.Create<int>((intOption) =>
                     {
@@ -41,7 +41,7 @@ namespace Todo
                 },
             };
 
-            rootCommand.Description = "Todo";
+            rootCommand.Description = "NewDay";
 
             // Parse the incoming args and invoke the handler
             return rootCommand.InvokeAsync(args).Result;

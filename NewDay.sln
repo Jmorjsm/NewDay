@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8897A1AF-0B3B-441C-90DB-5DA8574A0DE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo", "src\Todo\Todo.csproj", "{9D462864-BEBD-4C92-A7CE-95E1998D3402}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewDay", "src\NewDay\NewDay.csproj", "{9D462864-BEBD-4C92-A7CE-95E1998D3402}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
